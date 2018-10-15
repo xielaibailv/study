@@ -1,6 +1,4 @@
 
-
-
 安装Git
 1、在Linux上安装Git
 sudo apt-get install git
@@ -36,7 +34,9 @@ git add test.txt
 git commit -m "wrote a test file"  -- -m后面是本次提交的说明，可以输入任意内容
 --同时可以add多个文件，一次性commit
 
-44444
+需要下载一个git 桌面，方便使用图形化上传文件
+
+7、在使用git时，会出现蓝色的标识。蓝色标识是提示你 会上改变的文本。假如某些内容你不想上传，那么久点击一下该行前面的蓝色标识，就可以去掉
 
 
 python编码
