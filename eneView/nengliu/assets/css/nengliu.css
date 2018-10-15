@@ -1,0 +1,434 @@
+.main-content {
+  height: 100%;
+  background-size: 1920px 100%;
+}
+
+.page-name {
+  font-family: PingFangSC-Regular;
+  font-size: 20px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  position: absolute;
+  left: 83px;
+  top: 72px;
+  width: 150px;
+  height: 28px;
+  background-size: 9px 9px;
+  background-image: url("../img/dot@1x.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 20px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  line-height: 28px;
+  z-index: 1000;
+}
+
+.video-year {
+  position: absolute;
+  left: 320px;
+  top: 72px;
+  width: 300px;
+  height: 28px;
+  z-index: 1000;
+}
+
+.video-year .year {
+  display: inline-block;
+  float: left;
+  width: 50px;
+  height: 28px;
+  text-align: center;
+  font-size: 20px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  line-height: 28px;
+  padding-bottom: 4px;
+  cursor: pointer;
+}
+
+.video-year .year.active {
+  color: rgba(32, 217, 242, 1);
+  border-bottom: 1px solid rgba(32, 217, 242, 1);
+}
+
+.video-year .year2 {
+  margin-left: 50px;
+}
+
+.video {
+  width: 1920px;
+  position: absolute;
+  left: 0;
+  top: -20px;
+  z-index: 1;
+}
+
+.video-container {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.bottom {
+  z-index: 10001;
+  position: absolute;
+  left: 30px;
+  bottom: 140px;
+  width: 1860px;
+  height: 360px;
+  background: rgba(39, 84, 114, 0.4);
+}
+
+.bottom .section {
+  display: inline-block;
+  float: left;
+}
+
+.bottom .section .title {
+  display: inline-block;
+  height: 45px;
+  width: 100%;
+  border-bottom: 1px solid rgba(210, 210, 210, 0.3);
+}
+
+.bottom .section .title .text {
+  font-family: PingFangSC-Semibold;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding-left: 30px;
+  line-height: 50px;
+  background-size: 17px 17px;
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 300px;
+  float: left;
+}
+
+.bottom .section .title .text em {
+  font-family: PingFangSC-Regular;
+  font-size: 16.26px;
+  color: #FFFFFF;
+  letter-spacing: 0.15px;
+  padding-left: 10px;
+}
+
+.bottom .section.nengxiao {
+  width: 1175px;
+  margin-left: 35px;
+}
+
+.bottom .section.nengxiao .title .text {
+  background-image: url('../img/nengxiaozhibiao.png');
+}
+
+.bottom .section.nengyuan {
+  width: 455px;
+  margin-left: 145px;
+}
+
+.bottom .section.nengyuan .title .text {
+  background-image: url('../img/nengyuanxiaofeijiegou.png');
+}
+
+.bottom .section.nengyuan .title .icons {
+  float: right;
+  width: 60px;
+  margin-top: 18px;
+}
+
+.bottom .section.nengyuan .title .icons .pie,
+.bottom .section.nengyuan .title .icons .list {
+  width: 17px;
+  height: 17px;
+  background-size: 17px 17px;
+  background-repeat: no-repeat;
+  background-position: left;
+  display: inline-block;
+  float: left;
+  cursor: pointer;
+}
+
+.bottom .section.nengyuan .title .icons .pie {
+  background-image: url('../img/icon1(weixuan).png');
+  margin-right: 10px;
+}
+
+.bottom .section.nengyuan .title .icons .pie.active {
+  background-image: url('../img/icon1.png');
+}
+
+.bottom .section.nengyuan .title .icons .list {
+  background-image: url('../img/icon2(weixuan).png');
+  margin-left: 10px;
+}
+
+.bottom .section.nengyuan .title .icons .list.active {
+  background-image: url('../img/icon2.png');
+}
+
+.bottom .section.nengyuan .title .icons .line {
+  border-left: 1px solid rgba(170, 178, 200, 1);
+  width: 3px;
+  height: 10px;
+  display: inline-block;
+  float: left;
+  margin-top: 4px;
+}
+
+.bottom .section.nengxiao .content {
+  width: 1300px;
+}
+
+.bottom .section.nengxiao .content .item {
+  display: inline-block;
+  width: 300px;
+}
+
+.bottom .section.nengxiao .content .item-name {
+  height: 20px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  line-height: 20px;
+  background-size: 9px 9px;
+  background-image: url("../img/dot@1x.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 20px;
+  margin-top: 30px;
+  width: 270px;
+}
+
+.bottom .section.nengxiao .content .item-name em {
+  padding-left: 10px;
+}
+
+.bottom .section.nengxiao .content .item .num {
+  padding-left: 20px;
+  margin-top: 30px;
+  width: 270px;
+  height: 70px;
+}
+
+.bottom .section.nengxiao .content .item .num .main {
+  width: 88px;
+  height: 46px;
+  font-size: 36px;
+  font-family: DINPro-Medium;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  line-height: 46px;
+  display: inline-block;
+  float: left;
+}
+
+.bottom .section.nengxiao .content .item .num .updown {
+  font-size: 20px;
+  font-family: SFNSDisplay;
+  color: rgba(14, 222, 172, 1);
+  display: inline-block;
+  float: left;
+  margin-left: 15px;
+  padding-top: 15px;
+}
+
+.bottom .section.nengxiao .content .item .num .updown.down {
+
+}
+
+.bottom .section.nengxiao .content .item .num .bi {
+  font-size: 10px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: rgba(14, 222, 172, 1);
+  display: inline-block;
+  float: left;
+  margin-left: 15px;
+  padding-top: 25px;
+}
+
+.bottom .section.nengxiao .content .item .bar {
+  padding-left: 0;
+  height: 120px;
+  display: inline-block;
+  float: left;
+  width: 52px;
+  border-bottom: 2px solid rgba(240, 240, 240, 0.4);
+  margin-left: 20px;
+}
+
+.bottom .section.nengxiao .content .item .bar .bar1 {
+  display: inline-block;
+  float: left;
+  width: 6px;
+  height: 51px;
+  background: rgba(233, 172, 33, 1);
+  border-radius: 6px 6px 0px 0px;
+  margin-left: 15px;
+}
+
+.bottom .section.nengxiao .content .item .bar .bar2 {
+  display: inline-block;
+  float: left;
+  width: 6px;
+  height: 78px;
+  background: rgba(32, 217, 242, 1);
+  border-radius: 6px 6px 0px 0px;
+  margin-left: 10px;
+}
+
+.bottom .section.nengxiao .content .item .text {
+  width: 200px;
+  float: left;
+  height: 120px;
+  padding-left: 20px;
+  font-size: 14px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: rgba(128, 129, 145, 1);
+  line-height: 20px;
+}
+
+.bottom .section.nengxiao .content .item .text .biaogan {
+  width: 200px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.bottom .section.nengxiao .content .item .text .biaogan .num {
+  display: inline-block;
+  float: left;
+  height: 30px;
+  font-size: 26px;
+  font-family: Helvetica;
+  color: rgba(255, 255, 255, 1);
+  line-height: 30px;
+  margin-top: 10px;
+  margin-left: 0;
+  padding-left: 0;
+  width: 200px;
+}
+
+.bottom .section.nengxiao .content .item .text .biaogan span {
+  display: inline-block;
+  float: left;
+  font-size: 12px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: rgba(128, 129, 145, 1);
+  padding: 5px 0;
+  width: 200px;
+}
+
+.bottom .section.nengxiao .content .item .text .biaogan .sperate {
+  border-bottom: 1px solid rgba(240, 240, 240, 0.4);
+  width: 116px;
+  display: inline-block;
+  float: left;
+}
+
+.bottom .section.nengxiao .content .item .text em.dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 2px;
+}
+
+.bottom .section.nengxiao .content .item .text .text1 em.dot {
+  background: rgba(233, 172, 33, 1);
+}
+
+.bottom .section.nengxiao .content .item .text .text2 em.dot {
+  background: rgba(32, 217, 242, 1);
+}
+
+.bottom .section.nengxiao .content .item .text .text2 em.num {
+  font-size: 14px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  line-height: 20px;
+  padding-left: 10px;
+}
+
+.bottom .section.nengyuan #nengyuan-chart {
+  width: 400px;
+  height: 200px;
+}
+
+.bottom .section.nengyuan .content {
+  display: none;
+}
+
+.bottom .section.nengyuan .content.active {
+  display: block;
+}
+
+.bottom .section.nengyuan .content .items {
+
+}
+
+.bottom .section.nengyuan .content .items .row {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.bottom .section.nengyuan .content .items .row .item {
+  display: inline-block;
+  float: left;
+  width: 29%;
+  margin-right: 4%;
+}
+
+.bottom .section.nengyuan .content .items .row .item:last-child {
+  margin-right: 10px;
+}
+
+.bottom .section.nengyuan .content .items .row .item .num1 {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  font-size: 20px;
+  font-family: DINPro-Medium;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  padding-bottom: 6px;
+}
+
+.bottom .section.nengyuan .content .items .row .item .num1 em {
+  font-size: 11px;
+  padding-left: 4px;
+}
+
+.bottom .section.nengyuan .content .items .row .item .num2 {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  font-size: 20px;
+  font-family: DINPro-Medium;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  padding-bottom: 6px;
+}
+
+.bottom .section.nengyuan .content .items .row .item .num2 em {
+  font-size: 11px;
+  padding-left: 4px;
+}
+
+.bottom .section.nengyuan .content .items .row .item .name {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  font-size: 14px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: rgba(128, 129, 145, 1);
+}
