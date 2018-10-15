@@ -1493,3 +1493,35 @@ class MyTime():
 总共运行了5秒
 >>> t1 + t2
 '总共运行了1分钟-47秒'
+
+print("----------------------------------------------------over----------------------------------------------")
+
+#属性访问
+__getattr__(self,name)                  #定义当用户试图获取一个不存在 属性时的行为
+__getattribute__(self,name)     #定义当该类的属性被访问时的行为
+__setattr__(self,name,value)    #定义当一个属性被设置时的行为
+__delattr__(self,name)                   #定义当一个属性被删除时的行为
+
+class C:
+	def __getattribute__(self,name):
+		print("getattribute")
+		#使用super()来找getattribute的父类
+		return super().__getattribute__(name)
+
+	def __getattr__(self,name):
+		print("getattr")
+	def __setattr__(self,name,value):
+		print("setattr")
+		super().__setattr__(name,value)
+	def __delattr__(self,name):
+		print("delattr")
+		super().__delattr__(name)
+
+>>> c = C()
+>>> c.x                    #先调用getarribute发现x不存在，再调用getattr
+getattribute
+getattr
+>>> c.x = 1             #赋值了，调用setattr
+setattr
+>>> del c.x
+delattr
