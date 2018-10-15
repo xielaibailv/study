@@ -1,0 +1,43 @@
+
+
+
+安装Git
+1、在Linux上安装Git
+sudo apt-get install git
+
+2、在 windows上安装Git
+从Git官网下载程序：https://git-scm.com/downloads
+设置：
+git config --global user.name "your name"
+git cinfig --global user.email "email@com"
+
+使用Git
+1、创建版本库
+选一个合适的地方，创建一个空目录
+mkdir test
+cd test
+pwd --显示当前位置，同shell
+
+2、将此目录变成Git可以管理的仓库
+git init
+Initialized empty Git repository in /文件目录/.git/
+--最后的.git的目录是用来跟踪管理版本库的，是隐藏文件
+
+3、编辑文本文件
+--Windows的记事本千万不能用！！
+
+4、将文件放入刚创建的目录test下
+
+5、将文件添加到Git仓库
+git add test.txt
+--没有显示则表示成功。
+
+6、将文件提交到仓库
+git commit -m "wrote a test file"  -- -m后面是本次提交的说明，可以输入任意内容
+--同时可以add多个文件，一次性commit
+
+44444
+
+
+python编码
+u"啥实打实".encode("utf-8")
