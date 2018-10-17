@@ -17,20 +17,30 @@ cd test
 pwd --显示当前位置，同shell
 
 2、将此目录变成Git可以管理的仓库
+
+进入工程项目文件夹，然后运行
 git init
+
 Initialized empty Git repository in /文件目录/.git/
 --最后的.git的目录是用来跟踪管理版本库的，是隐藏文件
 
 3、编辑文本文件
+3、尝试增加一个文件，比如：
+touch test.txt
+
+4、编辑文本文件
 --Windows的记事本千万不能用！！
 
 4、将文件放入刚创建的目录test下
+5、将文件放入刚创建的目录test下（如果按照上面的步骤之间在该目录下增加的，就跳过此步骤）
 
 5、将文件添加到Git仓库
+6、将文件添加到Git仓库
 git add test.txt
 --没有显示则表示成功。
 
 6、将文件提交到仓库
+7、将文件提交到仓库
 git commit -m "wrote a test file"  -- -m后面是本次提交的说明，可以输入任意内容
 --同时可以add多个文件，一次性commit
 
