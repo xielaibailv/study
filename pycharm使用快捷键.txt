@@ -1,3 +1,6 @@
 全选代码，ctrl + alt + i  自动缩进
 
 push代码：   ctrl + shift +k
+
+#      decode                          encode
+#str ---------> str(Unicode) ---------> str
